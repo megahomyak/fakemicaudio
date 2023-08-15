@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fakemicaudio"
+version = "0.1.0"
+description = ""
+authors = ["megahomyak <g.megahomyak@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+sounddevice = "^0.4.6"
+pydub = "^0.25.1"
+soundfile = {extras = ["numpy"], version = "^0.12.1"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
