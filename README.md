@@ -1,17 +1,1 @@
-# fakemicaudio
-
-This program will allow you to play any audio file as if it was coming from your microphone.
-
-## Requirements
-
-* Python 3
-
-## Installation
-
-* `pip install fakemicaudio`
-
-## Usage
-
-```
-python -m fakemicaudio soundfile.mp3
-```
+**It won't work, I donked up, "sounddevice" is not the right library to use in this case, and there seems to be no convenient way to do what I want**
